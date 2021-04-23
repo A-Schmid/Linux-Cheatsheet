@@ -4,6 +4,8 @@ Most commands get some type of input (e.g. standard input or a file), process it
 If nothing else is specified, standard output is printed in the terminal.
 But the true power of command line tools lies in their capability to be combined via pipes - this means the output of one program is used as the input of another program.
 
+---
+
 ### Creating a Pipeline
 
 The ```|``` operator (pipe) can be used to chain together programs.
@@ -22,6 +24,8 @@ prints unique lines in all *.txt* files in the current directory
 
 Pipes are especially useful for filtering streams of text by for example removing or replacing characters or only including lines which contain a certain string.
 Such commands are discussed in a later section.
+
+---
 
 ### Redirecting Output to a File
 
@@ -49,3 +53,20 @@ To redirect both *STDOUT* and *STDERR* to a file, use the ```&>``` operator.
 To suppress output of a program, redirect all output to the special file */dev/null*:
 ```command &> /dev/null```.
 
+---
+
+### echo
+
+'*output a line of text to standard output'*
+
+**Syntax:** ```echo [OPTIONS] [STRING]```
+
+Similar to *print* functions of many programming languages, ```echo``` can be used to display a line of text.
+As its output is passed to *STDOUT*, ```echo``` can be used to pipe arbitrary input into other commands.
+Another important use of this command is printing text output from shell scripts (described later).
+
+**Options:**
+
+```-e```
+
+interpret backslash-escaped sequences (for example ```\n``` for new line)
