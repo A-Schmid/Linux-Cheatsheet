@@ -282,6 +282,7 @@ required to remove directories
 
 ---
 
+
 ## Reading Files
 
 ### cat
@@ -442,6 +443,7 @@ print the word count
 
 ---
 
+
 ## Redirecting Input and Output
 
 Most commands get some type of input (e.g. standard input or a file), process it and output a result (to standard output).
@@ -492,3 +494,4 @@ To redirect both *STDOUT* and *STDERR* to a file, use the ```&>``` operator.
 
 To suppress output of a program, redirect all output to the special file */dev/null*:
 ```command &> /dev/null```.
+
