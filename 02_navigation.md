@@ -60,3 +60,5 @@ Example: ```cd ~/Pictures``` is the same as ```cd /home/username/Pictures```.
 Go to the root directory.
 All paths starting with / are absolute.
 
+---
+

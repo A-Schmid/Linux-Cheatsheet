@@ -158,4 +158,3 @@ print the word count
 
 ---
 
-

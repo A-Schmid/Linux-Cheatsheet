@@ -51,3 +51,5 @@ Search in command history.
 Begin typing a command to filter the history.
 Press ```Ctrl + R``` again to cycle through matching commands.
 
+---
+
